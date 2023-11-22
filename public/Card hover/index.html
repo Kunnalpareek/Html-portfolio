@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50vh;
+            margin: 0;
+        }
+
+        .card{
+            width: 200px;
+            height: 200px;
+            margin: auto 1rem;
+            border: 2px black outset;
+            vertical-align: top;
+            border-radius: 5%;
+            background-color: antiquewhite;            
+        }
+        .card-text{
+            text-align: center;
+        }
+        img{
+           width: 100%;
+           border-radius: 5%;
+        }
+        
+        img[alt="code logo"]{
+            height: 133px;
+        }
+        img:hover{
+           border-bottom: 2px solid;
+        }
+        img:hover,.card:hover{
+            transition: 0.7s ease-in-out;
+            box-shadow: 3px 3px 10px black;
+        }
+        .Description{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="card-section">
+        <div class="card">
+            <img src="code logo.jpg" alt="code logo">
+            <div class="card-text">
+                <p>Code with Kunnal</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <img src="Geek Boy Logo.jpg" alt="geek boy logo">
+            <div class="card-text">
+                <p>Become a pro</p>
+            </div>
+        </div>
+    </section>
+    
+    <div class="Description">
+        <p>Hover over card and image to see effect.</p>
+    </div>
+</body>
+
+</html>
