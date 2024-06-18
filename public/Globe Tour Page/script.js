@@ -1,7 +1,6 @@
 var videoSection =  document.querySelector(".intro-video");
 
 videoSection.addEventListener("click",()=>{
-    alert("Radhe Radhe");
     createOverlay();
 })
 
